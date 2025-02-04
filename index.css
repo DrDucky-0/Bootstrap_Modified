@@ -1544,7 +1544,7 @@ p.cta-headline {
     display: none !important;
 }
 
-#mainLogoWrapper {
+.header-container {
     padding-bottom: 10px;
 }
 
@@ -2332,7 +2332,7 @@ input {
     box-shadow: 0 0 3px #999 inset
 }
 
-#mainLogoWrapper,
+.header-container,
 #logoWrapperInner {
     max-width: 1180px;
     margin: auto;
@@ -2489,11 +2489,11 @@ input {
     position: relative
 }
 
-#mainHeader #mainLogoWrapper {
+#mainHeader .header-container {
     position: relative
 }
 
-#mainLogoWrapper {
+.mid-header-grid {
     display: grid;
     grid-template-columns: 5fr 1fr;
     grid-template-rows: 106px;
@@ -2502,7 +2502,7 @@ input {
     height: 106px
 }
 
-.mid-dept>#mainLogoWrapper {
+.mid-dept>.mid-header-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     height: auto;
@@ -2523,12 +2523,12 @@ input {
     display: none
 }
 
-#mainLogoWrapper>div {
+.mid-header-grid>div {
     display: flex;
     align-items: center
 }
 
-.mid-dept>#mainLogoWrapper>div {
+.mid-dept>.mid-header-grid>div {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 24px
@@ -2559,13 +2559,13 @@ input {
     }
 }
 
-#mainLogoWrapper .top-links {
+.mid-header-grid .top-links {
     padding: 0;
     margin: 0;
     text-align: right
 }
 
-#mainLogoWrapper .top-links li {
+.mid-header-grid .top-links li {
     list-style-type: none;
     display: inline;
     margin-left: 15px;
@@ -2573,17 +2573,17 @@ input {
     font-size: 14.5px
 }
 
-#mainLogoWrapper .top-links li a.active {
+.mid-header-grid .top-links li a.active {
     font-family: "Akkurat Pro Bold", Arial Black, sans-serif
 }
 
-.mid-dept>#mainLogoWrapper .dept-row {
+.mid-dept>.mid-header-grid .dept-row {
     align-items: flex-start;
     margin-top: 10px;
     margin-bottom: 24px
 }
 
-.mid-dept>#mainLogoWrapper #search {
+.mid-dept>.mid-header-grid #search {
     position: relative;
     bottom: 8px
 }
@@ -5023,7 +5023,7 @@ header .overlay {
         font-weight: 400
     }
 
-    #mainLogoWrapper .subhead-purple-bar {
+    .header-container .subhead-purple-bar {
         display: block;
         font-weight: 400;
         font-size: 1.1rem;
@@ -5043,7 +5043,7 @@ header .overlay {
         padding-bottom: 5px
     }
 
-    #mainHeader #mainLogoWrapper {
+    #mainHeader .header-container {
         position: relative
     }
 
@@ -5099,7 +5099,7 @@ header .overlay {
             display: block
         }
 
-        header #mainLogoWrapper .subhead-purple-bar {
+        header .header-container .subhead-purple-bar {
             font-size: .95rem;
             padding-bottom: 0
         }
@@ -5118,7 +5118,7 @@ header .overlay {
             display: block
         }
 
-        .exploremcc-header-wrapper-outer #mainLogoWrapper .subhead-purple-bar {
+        .exploremcc-header-wrapper-outer .header-container .subhead-purple-bar {
             font-size: .95rem;
             padding-bottom: 0
         }
@@ -6575,13 +6575,13 @@ footer::before {
 
 #footer-links ul li a,
 #footer-links p a,
-#footer-copyright #mainLogoWrapper a {
+#footer-copyright .header-container a {
     border-bottom: dotted .5px #fff
 }
 
 #footer-links ul li a:hover,
 #footer-links p a:hover,
-#footer-copyright #mainLogoWrapper a:hover {
+#footer-copyright .header-container a:hover {
     border-bottom: solid .5px #fff
 }
 
@@ -6934,7 +6934,7 @@ selectricHideSelect select {
 
 @media screen and (max-width:1220px) {
 
-    #mainLogoWrapper,
+    .header-container,
     #container,
     #logoWrapperInner {
         margin-left: .55rem;
@@ -7078,7 +7078,7 @@ selectricHideSelect select {
     .sitetype- #super-nav,
     .mid-dept #search,
     #super-nav.dept-super,
-    #mainLogoWrapper .top-links {
+    .mid-header-grid .top-links {
         display: none
     }
 
@@ -7661,7 +7661,7 @@ selectricHideSelect select {
 }
 
 .cf:after,
-#nav #mainLogoWrapper {
+#nav .header-container {
     content: "";
     display: table;
     clear: both
@@ -8152,29 +8152,29 @@ a.button:last-of-type .hero a.button:last-of-type {
 }
 
 @media only screen and (max-width:520px) {
-    #mainLogoWrapper {
+    .mid-header-grid {
         display: table;
         width: calc(100% - 1.1rem);
         height: auto;
         padding: 1rem 1rem 1rem 0
     }
 
-    .mid-dept>#mainLogoWrapper {
+    .mid-dept>.mid-header-grid {
         min-height: auto
     }
 
-    #mainLogoWrapper>div,
+    .mid-header-grid>div,
     .mccormick-header-logo {
         vertical-align: middle;
         display: table-cell
     }
 
-    .mid-dept>#mainLogoWrapper>div {
+    .mid-dept>.mid-header-grid>div {
         display: block;
         margin-top: 0
     }
 
-    .mid-dept>#mainLogoWrapper>.dept-row {
+    .mid-dept>.mid-header-grid>.dept-row {
         margin-bottom: 0
     }
 
