@@ -2333,7 +2333,7 @@ input {
 }
 
 .header-container,
-#logoWrapperInner {
+#northwestern-logo-wrapper {
     max-width: 1180px;
     margin: auto;
     display: block
@@ -2689,7 +2689,7 @@ header>nav {
 }
 
 .main-nav>li:hover>a {
-    /* background-color: #4e2a84 */
+    background-color: #4e2a84
 }
 
 body .main-nav>li>a.active:after {
@@ -4895,12 +4895,12 @@ header .overlay {
     background: linear-gradient(to right, #401F68 50%, #4E2A84 50%)
 }
 
-#logoWrapperInner {
+#northwestern-logo-wrapper {
     padding-left: 1px;
     background: linear-gradient(45deg, #401F68 0, #401F68 200px, #4E2A84 200px, #4E2A84)
 }
 
-#logo {
+#northwestern-logo {
     width: 225px;
     height: 21px;
     margin-top: 8px !important;
@@ -4910,8 +4910,8 @@ header .overlay {
     vertical-align: middle
 }
 
-#logo img,
-#logo svg {
+#northwestern-logo img,
+#northwestern-logo svg {
     display: block;
     position: relative;
     top: 50%;
@@ -4920,25 +4920,25 @@ header .overlay {
     transform: translateY(-50%)
 }
 
-#logo img {
+#northwestern-logo img {
     display: block;
     width: 100%
 }
 
 @media screen and (max-width:600px) {
-    #logo img {
+    #northwestern-logo img {
         width: 194px
     }
 
-    .exploremcc-header-wrapper-outer #logo {
+    .exploremcc-header-wrapper-outer #northwestern-logo {
         width: 194px
     }
 
-    .exploremcc-header-wrapper-outer #logo .desktop {
+    .exploremcc-header-wrapper-outer #northwestern-logo .desktop {
         display: none
     }
 
-    .exploremcc-header-wrapper-outer #logo .mobile {
+    .exploremcc-header-wrapper-outer #northwestern-logo .mobile {
         display: block
     }
 }
@@ -6936,7 +6936,7 @@ selectricHideSelect select {
 
     .header-container,
     #container,
-    #logoWrapperInner {
+    #northwestern-logo-wrapper {
         margin-left: .55rem;
         margin-right: .55rem
     }
