@@ -2333,7 +2333,7 @@ input {
 }
 
 .header-container,
-#northwestern-logo-wrapper {
+#logoWrapperInner {
     max-width: 1180px;
     margin: auto;
     display: block
@@ -4891,11 +4891,11 @@ header .overlay {
     z-index: 2
 }
 
-#northwestern-logo-wrapper-outer {
+#logoWrapperOuter {
     background: linear-gradient(to right, #401F68 50%, #4E2A84 50%)
 }
 
-#northwestern-logo-wrapper {
+#logoWrapperInner {
     padding-left: 1px;
     background: linear-gradient(45deg, #401F68 0, #401F68 200px, #4E2A84 200px, #4E2A84)
 }
@@ -6936,7 +6936,7 @@ selectricHideSelect select {
 
     .header-container,
     #container,
-    #northwestern-logo-wrapper {
+    #logoWrapperInner {
         margin-left: .55rem;
         margin-right: .55rem
     }
