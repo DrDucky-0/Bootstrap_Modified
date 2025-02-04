@@ -1518,7 +1518,7 @@ p.cta-headline {
     text-align: center;
 }
 
-#mainHeader {
+#mid-header {
     margin-left: 20px;
 }
 
@@ -2475,7 +2475,7 @@ input {
     margin-bottom: 16px
 }
 
-#mainHeader::before {
+#mid-header::before {
     content: "";
     background-repeat: repeat-x;
     background-image: url(../images/structure/sprites/stitch-short.png);
@@ -2484,12 +2484,12 @@ input {
     display: block
 }
 
-#mainHeader {
+#mid-header {
     background: #fff;
     position: relative
 }
 
-#mainHeader .header-container {
+#mid-header .header-container {
     position: relative
 }
 
@@ -5035,7 +5035,7 @@ header .overlay {
         text-decoration: underline
     }
 
-    #mainHeader {
+    #mid-header {
         background: #fff;
         position: relative;
         max-height: 75px;
@@ -5043,7 +5043,7 @@ header .overlay {
         padding-bottom: 5px
     }
 
-    #mainHeader .header-container {
+    #mid-header .header-container {
         position: relative
     }
 
@@ -7549,7 +7549,7 @@ selectricHideSelect select {
 }
 
 @media screen and (max-width:480px) {
-    #mainHeader img {
+    #mid-header img {
         margin-left: 0
     }
 
