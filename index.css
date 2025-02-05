@@ -1321,16 +1321,16 @@ td .caption {
 h1#major-title .extraneous,
 #breadcrumb_info,
 #mobile-nav,
-#left-col,
+.left-col,
 .slider:not(.single-image),
-#back-to-top,
+.line-left,
 .back_to_top,
 #anchor_header,
 #anchor_toc,
 #related_info,
 #breadcrumb_info,
 #more-in-section,
-#footer-links,
+.small-content,
 #footer-icons,
 #footer-logo,
 #footer-copyright a,
@@ -1526,7 +1526,7 @@ p.cta-headline {
     display: none;
 }
 
-.mccormick-header-logo {
+.size-400-50 {
     /*background-image: url("../images/structure/engineering-logo.svg");*/
     background-position: left center;
     background-repeat: no-repeat;
@@ -1536,11 +1536,11 @@ p.cta-headline {
     width: 410px;
 }
 
-.mccormick-header-logo img {
+.size-400-50 img {
     display: block;
 }
 
-.mccormick-header-logo .mobile {
+.size-400-50 .mobile {
     display: none !important;
 }
 
@@ -1836,7 +1836,7 @@ article #main-content {
 #news-article-content h1,
 h2,
 a {
-    color: #4E2A84 !important;
+    /* color: #4E2A84 !important; */
 }
 
 #news-article-content h1,
@@ -2434,7 +2434,7 @@ input {
 }
 
 #super-nav>ul>li:last-child:hover {
-    background-color: #401F68
+    /* background-color: #401F68 */
 }
 
 #super-nav>ul>li:hover:before {
@@ -2509,17 +2509,17 @@ input {
     display: block
 }
 
-.mccormick-header-logo {
+.size-400-50 {
     display: block;
     width: 410px
 }
 
-.mccormick-header-logo .desktop {
+.size-400-50 .desktop {
     display: block;
     width: 100%
 }
 
-.mccormick-header-logo .mobile {
+.size-400-50 .mobile {
     display: none
 }
 
@@ -2597,15 +2597,15 @@ input {
     overflow: hidden
 }
 
-#search .search-form {
+#search .font-size-4 {
     width: 265px
 }
 
-#search .search-form form {
+#search .font-size-4 form {
     margin: 0
 }
 
-#search .search-form input {
+#search .font-size-4 input {
     width: 245px;
     height: 35px;
     padding: 0 .3em 0 0;
@@ -2619,29 +2619,29 @@ input {
     box-sizing: border-box
 }
 
-#search .search-form input::-webkit-input-placeholder {
+#search .font-size-4 input::-webkit-input-placeholder {
     color: #9b9b9b
 }
 
-#search .search-form input::-moz-placeholder {
+#search .font-size-4 input::-moz-placeholder {
     color: #9b9b9b
 }
 
-#search .search-form input:-moz-placeholder {
+#search .font-size-4 input:-moz-placeholder {
     color: #9b9b9b
 }
 
-#search .search-form input:-ms-input-placeholder {
+#search .font-size-4 input:-ms-input-placeholder {
     color: #9b9b9b
 }
 
-#search .search-form input::after {
+#search .font-size-4 input::after {
     content: "";
     display: table;
     clear: both
 }
 
-#search .search-form button,
+#search .font-size-4 button,
 .navsearch+button {
     cursor: pointer;
     height: 35px;
@@ -2653,12 +2653,12 @@ input {
     padding-right: 0
 }
 
-#search .search-form button {
+#search .font-size-4 button {
     float: left;
     border-bottom: 1px solid #9b9b9b
 }
 
-#search .search-form input:focus,
+#search .font-size-4 input:focus,
 .navsearch:focus {
     outline: 0
 }
@@ -2689,7 +2689,7 @@ header>nav {
 }
 
 .main-nav>li:hover>a {
-    background-color: #4e2a84
+    /* background-color: #4e2a84 */
 }
 
 body .main-nav>li>a.active:after {
@@ -2708,7 +2708,7 @@ body .main-nav>li>a.active:after {
     display: block;
     width: 100%;
     height: 5px;
-    background-color: #4e2a84;
+    /* background-color: #4e2a84; */
     position: absolute;
     left: 0;
     right: 0
@@ -2727,7 +2727,7 @@ body .main-nav>li>a.active:after {
 }
 
 .main-nav>li:hover .dropdown-arrow {
-    transform: rotate(180deg)
+    /* transform: rotate(180deg) */
 }
 
 .main-nav>li>a {
@@ -2740,7 +2740,7 @@ body .main-nav>li>a.active:after {
 }
 
 .main-nav>li:hover>a {
-    color: #fff
+    /* color: #fff */
 }
 
 .main-nav>li>div {
@@ -3100,35 +3100,35 @@ input.navsearch::-ms-input-placeholder {
     cursor: pointer
 }
 
-#mobile-search .search-form form {
+#mobile-search .font-size-4 form {
     margin: 0
 }
 
-#mobile-search .search-form input {
+#mobile-search .font-size-4 input {
     font-family: "Akkurat Pro Bold", Impact, sans-serif
 }
 
-#mobile-search .search-form input::-webkit-input-placeholder {
+#mobile-search .font-size-4 input::-webkit-input-placeholder {
     color: #fff;
     opacity: .5
 }
 
-#mobile-search .search-form input::-moz-placeholder {
+#mobile-search .font-size-4 input::-moz-placeholder {
     color: #fff;
     opacity: .5
 }
 
-#mobile-search .search-form input:-moz-placeholder {
+#mobile-search .font-size-4 input:-moz-placeholder {
     color: #fff;
     opacity: .5
 }
 
-#mobile-search .search-form input:-ms-input-placeholder {
+#mobile-search .font-size-4 input:-ms-input-placeholder {
     color: #fff;
     opacity: .5
 }
 
-#mobile-search .search-form input::after {
+#mobile-search .font-size-4 input::after {
     content: "";
     display: table;
     clear: both
@@ -3250,9 +3250,9 @@ input.navsearch::-ms-input-placeholder {
 }
 
 #main-mobile-nav li .dropdown-arrow.open a {
-    -webkit-transform: rotate(180deg);
+    /* -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+    transform: rotate(180deg); */
     border: none
 }
 
@@ -3658,7 +3658,7 @@ body .modal .modal-toggle {
 }
 
 .iconset-home {
-    background-image: url(../images/structure/sprites/homepage-social.svg)
+    background-image: url(../images/structure/sprites/homepage-social.svg);
 }
 
 .iconset-home:not(:last-child) {
@@ -4900,7 +4900,7 @@ header .overlay {
     background: linear-gradient(45deg, #401F68 0, #401F68 200px, #4E2A84 200px, #4E2A84)
 }
 
-#northwestern-logo {
+#logo {
     width: 225px;
     height: 21px;
     margin-top: 8px !important;
@@ -4910,8 +4910,8 @@ header .overlay {
     vertical-align: middle
 }
 
-#northwestern-logo img,
-#northwestern-logo svg {
+#logo img,
+#logo svg {
     display: block;
     position: relative;
     top: 50%;
@@ -4920,25 +4920,25 @@ header .overlay {
     transform: translateY(-50%)
 }
 
-#northwestern-logo img {
+#logo img {
     display: block;
     width: 100%
 }
 
 @media screen and (max-width:600px) {
-    #northwestern-logo img {
+    #logo img {
         width: 194px
     }
 
-    .exploremcc-header-wrapper-outer #northwestern-logo {
+    .exploremcc-header-wrapper-outer #logo {
         width: 194px
     }
 
-    .exploremcc-header-wrapper-outer #northwestern-logo .desktop {
+    .exploremcc-header-wrapper-outer #logo .desktop {
         display: none
     }
 
-    .exploremcc-header-wrapper-outer #northwestern-logo .mobile {
+    .exploremcc-header-wrapper-outer #logo .mobile {
         display: block
     }
 }
@@ -5047,14 +5047,14 @@ header .overlay {
         position: relative
     }
 
-    .mccormick-header-logo {
+    .size-400-50 {
         display: block;
         height: 65px;
         width: 410px
     }
 
-    .mccormick-header-logo img,
-    .mccormick-header-logo svg {
+    .size-400-50 img,
+    .size-400-50 svg {
         display: block;
         position: relative;
         top: 50%;
@@ -5063,39 +5063,39 @@ header .overlay {
         transform: translateY(-50%)
     }
 
-    .mccormick-header-logo .desktop {
+    .size-400-50 .desktop {
         display: block;
         width: 100%
     }
 
-    .mccormick-header-logo .mobile {
+    .size-400-50 .mobile {
         display: none
     }
 
     @media screen and (max-width:1220px) {
-        .mccormick-header-logo {
+        .size-400-50 {
             max-width: 32%
         }
     }
 
     @media screen and (max-width:1040px) {
-        .mccormick-header-logo {
+        .size-400-50 {
             max-width: none;
             max-width: initial
         }
     }
 
     @media screen and (max-width:700px) {
-        header .mccormick-header-logo {
+        header .size-400-50 {
             width: 151px;
             max-width: 151px
         }
 
-        header .mccormick-header-logo .desktop {
+        header .size-400-50 .desktop {
             display: none
         }
 
-        header .mccormick-header-logo .mobile {
+        header .size-400-50 .mobile {
             display: block
         }
 
@@ -5106,15 +5106,15 @@ header .overlay {
     }
 
     @media screen and (max-width:600px) {
-        .exploremcc-header-wrapper-outer .mccormick-header-logo {
+        .exploremcc-header-wrapper-outer .size-400-50 {
             width: 151px
         }
 
-        .exploremcc-header-wrapper-outer .mccormick-header-logo .desktop {
+        .exploremcc-header-wrapper-outer .size-400-50 .desktop {
             display: none
         }
 
-        .exploremcc-header-wrapper-outer .mccormick-header-logo .mobile {
+        .exploremcc-header-wrapper-outer .size-400-50 .mobile {
             display: block
         }
 
@@ -5539,7 +5539,7 @@ h1#major-title .extraneous {
     margin: auto
 }
 
-#left-col {
+.left-col {
     padding: 2.5rem 0 0 0;
     width: 200px;
     position: absolute;
@@ -5550,7 +5550,7 @@ h1#major-title .extraneous {
     z-index: 1
 }
 
-#left-col #section-nav-head {
+.left-col #section-nav-head {
     border-bottom: 2px solid #cacaca;
     font-family: "Poppins Light", Arial, sans-serif;
     font-size: .9rem;
@@ -5931,78 +5931,78 @@ p#anchor_header {
     hyphens: auto
 }
 
-#left-col {
+.left-col {
     border-bottom: 4px solid #E8E9E9
 }
 
-#left-col ul {
+.left-col ul {
     list-style-type: none;
     padding-left: 0;
     margin-left: 0;
     margin-top: 0
 }
 
-#left-col li.index {
+.left-col li.index {
     display: none
 }
 
-#left-col li,
-#left-col a {
+.left-col li,
+.left-col a {
     display: block
 }
 
-#left-col nav ul>li.active>a {
+.left-col nav ul>li.active>a {
     font-family: "Akkurat Pro Bold", "Arial Black", sans-serif;
     font-weight: 400;
     color: #4e2a84 !important
 }
 
-#left-col nav>ul>li>a {
+.left-col nav>ul>li>a {
     padding: 10px 5px 0
 }
 
-#left-col nav.redesign>ul>li>a:hover {
+.left-col nav.redesign>ul>li>a:hover {
     text-decoration: none;
     font-weight: 400
 }
 
-#left-col nav.redesign>ul>li>a {
+.left-col nav.redesign>ul>li>a {
     border-bottom: 4px solid #E8E9E9;
     bottom: 10px;
     padding-bottom: 15px
 }
 
-#left-col nav>ul li a {
+.left-col nav>ul li a {
     padding: 10px 22px 10px 0
 }
 
-#left-col>nav:not(.redesign)>ul>li>ul>li>ul>li>a,
-#left-col nav.redesign>ul>li>ul>li>ul>li>ul>li>a {
+.left-col>nav:not(.redesign)>ul>li>ul>li>ul>li>a,
+.left-col nav.redesign>ul>li>ul>li>ul>li>ul>li>a {
     font-size: .98rem
 }
 
-#left-col nav>ul>li>ul {
+.left-col nav>ul>li>ul {
     display: none
 }
 
-#left-col nav>ul>li.active>ul {
+.left-col nav>ul>li.active>ul {
     display: block
 }
 
-#left-col ul li>a {
+.left-col ul li>a {
     color: #3f3f40;
     position: relative
 }
 
-#left-col ul li>a:hover {
+.left-col ul li>a:hover {
     font-family: "Akkurat Pro Bold", "Arial Black", sans-serif;
     font-weight: 400;
     color: #4e2a84
 }
 
-#left-col nav>ul>li.section>a::after,
-#left-col nav>ul>li>ul>li.section>a::after,
-#left-col nav.redesign>ul>li>ul>li>ul>li.section>a::after {
+.left-col nav>ul>li.section>a::after,
+.left-col nav>ul>li>ul>li.section>a::after,
+.left-col nav.redesign>ul>li>ul>li>ul>li.section>a::after {
     content: "";
     background: url(https://common.northwestern.edu/v8/css/images/icons/arrow-down-dkgrey.svg) no-repeat right center/12px 6px;
     position: absolute;
@@ -6013,56 +6013,56 @@ p#anchor_header {
     top: calc(50% - 2px)
 }
 
-#left-col nav>ul>li.active.section>a::after,
-#left-col nav>ul>li>ul>li.active.section>a::after,
-#left-col nav.redesign>ul>li>ul>li>ul>li.active.section>a::after {
+.left-col nav>ul>li.active.section>a::after,
+.left-col nav>ul>li>ul>li.active.section>a::after,
+.left-col nav.redesign>ul>li>ul>li>ul>li.active.section>a::after {
     background: url(https://common.northwestern.edu/v8/css/images/icons/arrow-down-dkpurple.svg) no-repeat right center/12px 6px;
     transform: translateY(-50%) rotate(180deg)
 }
 
-#left-col nav.redesign>ul>li.section>a::after {
+.left-col nav.redesign>ul>li.section>a::after {
     display: none
 }
 
-#left-col nav>ul>li {
+.left-col nav>ul>li {
     line-height: 1.4rem
 }
 
-#left-col nav>ul>li>ul li {
+.left-col nav>ul>li>ul li {
     line-height: 1.3rem
 }
 
-html.no-touch #left-col li.active>ul>li>a:hover {
+html.no-touch .left-col li.active>ul>li>a:hover {
     text-decoration: none;
     font-weight: 400
 }
 
-#left-col>nav:not(.redesign)>ul ul,
-#left-col>nav.redesign>ul ul ul {
+.left-col>nav:not(.redesign)>ul ul,
+.left-col>nav.redesign>ul ul ul {
     margin-left: 2px;
     padding-left: 15px;
     display: none
 }
 
-#left-col>nav li.active.expanded>ul {
+.left-col>nav li.active.expanded>ul {
     display: block
 }
 
-#left-col>nav:not(.redesign)>ul ul.current-subsection,
-#left-col>nav>ul ul ul.current-subsection {
+.left-col>nav:not(.redesign)>ul ul.current-subsection,
+.left-col>nav>ul ul ul.current-subsection {
     border-left: 3px solid #ADA2CF;
     display: block
 }
 
-#left-col * {
+.left-col * {
     border-collapse: collapse
 }
 
-#left-col li.current {
+.left-col li.current {
     position: relative
 }
 
-#left-col li.active.expanded.section>a {
+.left-col li.active.expanded.section>a {
     position: relative
 }
 
@@ -6417,7 +6417,7 @@ ul.inline-list {
     padding-left: .7rem
 }
 
-#back-to-top,
+.line-left,
 .back-to-top {
     border-left: none !important;
     border-right: none !important;
@@ -6428,7 +6428,7 @@ ul.inline-list {
     height: 1.9rem
 }
 
-#back-to-top a,
+.line-left a,
 .back-to-top a {
     position: absolute;
     right: 0;
@@ -6444,7 +6444,7 @@ ul.inline-list {
     font-weight: 400
 }
 
-#back-to-top a:after,
+.line-left a:after,
 .back-to-top a:after {
     content: '';
     background: url(../images/structure/sprites/arrows-nav-docs.png);
@@ -6503,13 +6503,13 @@ footer::before {
     background-image: url(../images/structure/sprites/stitch-short-white.png)
 }
 
-#footer-links {
+.small-content {
     width: 55.612244897959%;
     margin-top: 0;
     padding-left: 0
 }
 
-#footer-links>a {
+.small-content>a {
     font-weight: 400
 }
 
@@ -6533,54 +6533,54 @@ footer::before {
     top: .2rem
 }
 
-#footer-links p:first-child {
+.small-content p:first-child {
     margin: -.3rem 0 5px 0
 }
 
-#footer-links p:first-child.department-footer-header {
+.small-content p:first-child.department-footer-header {
     margin-bottom: 0
 }
 
-#footer-links p:first-child>span {
+.small-content p:first-child>span {
     font-size: 1rem;
     line-height: 1.5rem;
     display: block
 }
 
-#footer-links p:first-child>span:first-child:not(.footer-branding-element),
-#footer-links .dept {
+.small-content p:first-child>span:first-child:not(.info-text-large),
+.small-content .dept {
     font-weight: 400
 }
 
-#footer-links p:first-child .footer-branding-element {
+.small-content p:first-child .info-text-large {
     font-size: 1.1rem;
     letter-spacing: .2px;
     display: inline-block
 }
 
-#footer-links .contact-info.extra-height {
+.small-content .contact-info.extra-height {
     line-height: 1.6rem
 }
 
-#footer-links ul {
+.small-content ul {
     line-height: 1.6rem;
     margin-top: 0
 }
 
-#footer-links li a {
+.small-content li a {
     color: #fff;
     font-weight: 400;
     font-size: .9rem
 }
 
-#footer-links ul li a,
-#footer-links p a,
+.small-content ul li a,
+.small-content p a,
 #footer-copyright .header-container a {
     border-bottom: dotted .5px #fff
 }
 
-#footer-links ul li a:hover,
-#footer-links p a:hover,
+.small-content ul li a:hover,
+.small-content p a:hover,
 #footer-copyright .header-container a:hover {
     border-bottom: solid .5px #fff
 }
@@ -6597,7 +6597,7 @@ footer::before {
     margin-bottom: 5px
 }
 
-#footer-links,
+.small-content,
 #footer-logo {
     float: left
 }
@@ -7008,7 +7008,7 @@ selectricHideSelect select {
         display: none
     }
 
-    #left-col {
+    .left-col {
         /*padding:4.5rem 0 0 0*/
     }
 
@@ -7082,7 +7082,7 @@ selectricHideSelect select {
         display: none
     }
 
-    .mccormick-header-logo {
+    .size-400-50 {
         display: table;
         height: auto;
         vertical-align: middle
@@ -7180,23 +7180,23 @@ selectricHideSelect select {
         margin-right: 0
     }
 
-    #footer-links {
+    .small-content {
         width: 100%;
         float: none;
         padding-left: 0
     }
 
-    #footer-links p:first-child,
-    #footer-links p:first-child.department-footer-header {
+    .small-content p:first-child,
+    .small-content p:first-child.department-footer-header {
         margin-top: 20px
     }
 
-    #footer-links p:first-child {
+    .small-content p:first-child {
         font-size: 1.25rem;
         margin-bottom: 1.5rem
     }
 
-    #footer-links ul {
+    .small-content ul {
         margin: auto;
         margin-left: 1.3rem
     }
@@ -7241,7 +7241,7 @@ selectricHideSelect select {
         padding: .9rem 0 .75rem .2rem
     }
 
-    #back-to-top a {
+    .line-left a {
         padding-right: .5rem
     }
 
@@ -7250,12 +7250,12 @@ selectricHideSelect select {
         display: none
     }
 
-    #search .search-form {
+    #search .font-size-4 {
         width: 100%;
         position: relative
     }
 
-    #search #q-desktop {
+    #search .font-size-4 {
         width: 100%;
         border: none;
         color: #dadada;
@@ -7269,19 +7269,19 @@ selectricHideSelect select {
         height: 45px
     }
 
-    #search #q-desktop::-webkit-input-placeholder {
+    #search .font-size-4::-webkit-input-placeholder {
         color: #dadada
     }
 
-    #search #q-desktop::-moz-placeholder {
+    #search .font-size-4::-moz-placeholder {
         color: #dadada
     }
 
-    #search #q-desktop:-ms-input-placeholder {
+    #search .font-size-4:-ms-input-placeholder {
         color: #dadada
     }
 
-    #search .search-form button {
+    #search .font-size-4 button {
         float: none;
         position: absolute;
         right: 20px;
@@ -7294,167 +7294,7 @@ selectricHideSelect select {
         display: none
     }
 
-    #mobile-nav {
-        display: block;
-        left: .55rem;
-        right: .55rem;
-        height: 40px;
-        position: absolute;
-        z-index: 10
-    }
-
-    .sitetype-undefined #mobile-nav,
-    .sitetype- #mobile-nav {
-        margin-top: 70px
-    }
-
-    #mobile-nav.expanded {
-        height: auto
-    }
-
-    #mobile-nav-handle {
-        background: #005295;
-        border-radius: 5px;
-        height: 40px;
-        line-height: 40px;
-        font-size: .9rem;
-        color: #fff;
-        padding-left: 1.5rem;
-        cursor: pointer
-    }
-
-    #mobile-nav-handle #inner {
-        right: 3rem;
-        position: absolute;
-        left: 1rem;
-        border-right: 1px solid #4d86b5;
-        font-family: "Poppins Bold", "Arial Black", sans-serif;
-        font-weight: 400
-    }
-
-    #mobile-nav.expanded #mobile-nav-handle {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        position: relative
-    }
-
-    #mobile-nav #mobile-nav-handle:after {
-        content: 'Click to expand!';
-        font-size: 0;
-        background-image: url(../images/structure/sprites/arrows-nav-docs.svg);
-        background-position: -40px -42px;
-        width: 25px;
-        height: 25px;
-        position: absolute;
-        top: 50%;
-        margin-top: -11px;
-        right: .7rem
-    }
-
-    #mobile-nav.expanded #mobile-nav-handle:after {
-        content: 'Click to expand!';
-        font-size: 0;
-        background-image: url(../images/structure/sprites/arrows-nav-docs.svg);
-        background-position: -76px -42px;
-        width: 25px;
-        height: 25px;
-        position: absolute;
-        top: 50%;
-        margin-top: -11px;
-        right: .7rem
-    }
-
-    #mobile-nav ul {
-        list-style-type: none;
-        padding-left: 0;
-        margin: 0
-    }
-
-    #mobile-nav nav {
-        background: #fff
-    }
-
-    #mobile-nav li ul {
-        display: none
-    }
-
-    #mobile-nav li.expanded>ul,
-    #mobile-nav li.expanded>ul>li.expanded>ul {
-        display: block
-    }
-
-    #mobile-nav nav a {
-        display: block;
-        min-height: 45px;
-        padding: 1rem .3rem 1rem 1rem;
-        font-size: .9rem;
-        position: relative;
-        border-bottom: 1px solid #e4e4e4;
-        padding-right: 2rem
-    }
-
-    #mobile-nav>nav>ul,
-    #mobile-nav #breadcrumb_info {
-        border-left: 1px solid #aeaeae;
-        border-right: 1px solid #aeaeae;
-        box-shadow: 0 2px 2px #666
-    }
-
-    #mobile-nav>nav>ul>li.section>a:after,
-    #mobile-nav>nav>ul>li.section>ul>li.section>a:after,
-    #mobile-menu #top-nav>li.active>a:after {
-        content: '';
-        width: 0;
-        height: 0;
-        border-left: 8px solid transparent;
-        border-right: 8px solid transparent;
-        border-top: 10px solid #4E2A84;
-        position: absolute;
-        top: 1.2rem;
-        right: 1rem;
-        -moz-transform: scale(.9999)
-    }
-
-    #mobile-nav>nav>ul>li.expanded>a:after,
-    #mobile-nav>nav>ul>li.expanded>ul>li.expanded>a:after,
-    #mobile-menu #top-nav>li.active>a:after {
-        content: '';
-        width: 0;
-        height: 0;
-        border-left: 8px solid transparent;
-        border-right: 8px solid transparent;
-        border-bottom: 10px solid #4E2A84;
-        border-top: none;
-        position: absolute;
-        top: 1.2rem;
-        right: 1rem;
-        -moz-transform: scale(.9999)
-    }
-
-    #mobile-nav>nav>ul>li.expanded>ul>li {
-        background: #efefef
-    }
-
-    #mobile-nav>nav>ul>li.active>ul>li:first-child,
-    #mobile-menu ul li.expanded ul li:first-child {
-        box-shadow: inset 0 11px 6px -10px #666
-    }
-
-    #mobile-nav>nav>ul>li.active>ul>li:last-child,
-    #mobile-menu ul li.expanded ul li:last-child {
-        box-shadow: inset 0 -11px 6px -10px #666
-    }
-
-    #mobile-nav>nav>ul>li>ul>li>ul {
-        box-shadow: inset 0 11px 6px -10px #666, inset 0 -11px 6px -10px #666;
-        background: #e0e0e0
-    }
-
-    #mobile-nav .current>a {
-        font-weight: 400
-    }
-
-    #left-col {
+    .left-col {
         display: none
     }
 
@@ -7465,7 +7305,7 @@ selectricHideSelect select {
         padding: 0
     }
 
-    #back-to-top a {
+    .line-left a {
         left: 50%;
         margin-left: -65px;
         width: 145px;
@@ -7500,7 +7340,7 @@ selectricHideSelect select {
         font-size: 1.3rem
     }
 
-    #footer-links ul {
+    .small-content ul {
         width: auto
     }
 
@@ -7527,7 +7367,7 @@ selectricHideSelect select {
 }
 
 @media screen and (max-width:600px) {
-    #footer-links>a {
+    .small-content>a {
         display: block;
         text-align: center
     }
@@ -7561,12 +7401,12 @@ selectricHideSelect select {
         padding-top: .5rem
     }
 
-    #footer-links ul li:nth-child(5) {
+    .small-content ul li:nth-child(5) {
         margin-top: 1rem
     }
 
-    #footer-links ul li:nth-child(5),
-    #footer-links ul li:nth-child(6) {
+    .small-content ul li:nth-child(5),
+    .small-content ul li:nth-child(6) {
         display: block;
         text-align: center;
         margin-left: 0
@@ -8164,7 +8004,7 @@ a.button:last-of-type .hero a.button:last-of-type {
     }
 
     .mid-header-grid>div,
-    .mccormick-header-logo {
+    .size-400-50 {
         vertical-align: middle;
         display: table-cell
     }
@@ -8441,11 +8281,11 @@ a.button:last-of-type .hero a.button:last-of-type {
     }
 }
 
-#left-col nav.redesign li.index {
+.left-col nav.redesign li.index {
     display: none !important
 }
 
-#left-col nav.redesign>ul>li.active>a {
+.left-col nav.redesign>ul>li.active>a {
     font-family: "Poppins Bold", "Arial Black", sans-serif !important;
     font-weight: 400;
     text-transform: uppercase;
@@ -8453,7 +8293,7 @@ a.button:last-of-type .hero a.button:last-of-type {
     font-size: 1.1875rem
 }
 
-#left-col nav.redesign ul ul ul ul ul {
+.left-col nav.redesign ul ul ul ul ul {
     display: none !important
 }
 
